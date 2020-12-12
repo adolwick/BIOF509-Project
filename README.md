@@ -17,11 +17,17 @@ The data I am using to exhibit this tool were collected in a VR Buffet environme
 
 This repository contains six raw data files in .csv format, one for each degree of freedom. Additionally, it contains five annotated Jupyter Notebook files, marked numerically by their order in the pipeline, as follows:
 
+
 1_KNN_imputation -- Imputes values for missing data.
+
 2a_PCA -- Performs dimensionality reduction via principal component analysis.
+
 2b_UMAP -- Performs dimensionality reduction via UMAP.
+
 3a_RFR -- Predicts VR user presence using the random forest regressor.
+
 3b_SVR -- Predicts VR user presence using the support vector regressor.
+
 
 Each Jupyter Notebook runs its algorithm via the following format: requisite packages are imported, a class is initialized that contains all necessary methods to conduct and evaluate the algorithm, and an object of that class is created to run the algorithm on the sample data. To use this tool on the sample data, run through the Jupyter Notebook files in order.
 
