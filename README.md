@@ -7,7 +7,7 @@ Virtual reality (VR) tools are useful for behavioral research because they provi
 
 Presence is the psychological concept describing a sense of being in a place. Applied to VR, presence refers to the extent to which users feel that they exist within the virtual world. Prior research has demonstrated that generally, participants in VR studies self-report high levels of presence. This allows for researchers to obtain natural reactions to stimuli in behavioral studies conducted in VR environments.
 
-The present tool is designed to predict self-reported presence of users in a VR environment by analyzing nonverbal behavioral data automatically collected by the VR system. These data are measured on 6 degrees of freedom (6DOF) that represent both positional data (x, y, and z) and rotational data (yaw, pitch, and roll). While designed for this specific purpose, the tool is flexible enough to work with any data in which there is one observation per row and one variable per column and in which all features are numeric.  
+The present tool is designed to predict self-reported presence of users in a VR environment by analyzing nonverbal behavioral data automatically collected by the VR system. These data are measured on 6 degrees of freedom (6DOF) that represent both positional data (x, y, and z) and rotational data (yaw, pitch, and roll). While designed for this specific purpose, the tool is flexible enough to work with any data in which there is one observation per row and one variable per column (i.e., tidy data) and in which all features are numeric.  
 
 ### Sample Data
 
